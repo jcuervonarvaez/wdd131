@@ -25,6 +25,8 @@ a {
 }
 
 header {
+  grid-column: 1/2;
+  grid-row: 1/2;
   background-color: var(--dark-blue);
   color: white;
 }
@@ -54,14 +56,27 @@ header nav a:hover {
   font-weight: 700;
 }
 
+footer {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-color: var(--dark-blue);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
 main {
+  grid-row: 2/3;
+  grid-column: 1/2;
   display: grid;
-  grid-template-columns: 1fr auto;
-  max-width: 1200px;
+  grid-template-columns: 2fr 1fr;
+  max-width: 1074px;
   margin: 0 auto;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   margin: 20px;
   border-radius: 6px 6px 5px 5px;
   border: solid 1px var(--light-blue);
@@ -125,7 +140,35 @@ main {
 }
 
 .profile-picture {
+  width: auto;
+  height: 250px;
   border-radius: 5px;
+}
+
+.references {
+  margin: auto 0;
+}
+
+.references ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+}
+
+.references ul li a {
+  display: block;
+  padding: 10px;
+}
+
+.references ul li a:hover {
+  font-weight: 700;
+  padding-bottom: 8px;
+  border-bottom: solid 2px var(--dark-blue);
+}
+
+#lastModified {
+  color: var(--yellow);
 }
 
 @media screen and (max-width: 768px) {
@@ -156,6 +199,13 @@ main {
 
   .about-me {
     flex-direction: column-reverse;
+  }
+
+  .profile-picture {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
   }
 
   .flag {
