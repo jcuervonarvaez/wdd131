@@ -100,7 +100,7 @@ main {
 h2 {
   font-weight: 900;
   text-align: center;
-  text-transform: uppercases;
+  text-transform: uppercase;
   margin-bottom: 2rem;
 }
 
