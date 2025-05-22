@@ -1,0 +1,31 @@
+@media screen and (min-width: 1024px) {
+  header .top-header {
+    width: inherit;
+    flex: 1;
+  }
+  header .top-header .hamburger {
+    display: none;
+  }
+  header nav {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+  }
+  header nav a,
+  header nav a:visited {
+    color: var(--black-color);
+    margin: 1.2rem;
+    border-bottom: 4px solid transparent
+  }
+
+  header nav a:hover {
+    color: var(--accent-color);
+    background-color: transparent;
+    border-bottom: 4px solid var(--secondary-color);
+  }
+
+  main {
+    max-width: 1024px;
+  }
+}
