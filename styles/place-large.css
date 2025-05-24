@@ -1,0 +1,53 @@
+@media screen and (min-width: 1024px) {
+  header img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  main {
+    max-width: 1024px;
+    position: relative;
+    display: grid;
+    margin: 0 auto;
+    margin-top: 68px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+  .hero {
+    height: auto;
+  }
+
+  .hero-card {
+    margin: 0;
+    min-width: 300px;
+    position: absolute;
+    margin: 1rem 2rem;
+  }
+
+  .hero-card ul {
+    display: initial;
+  }
+
+  .hero-card ul > li {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .hero-card:last-child {
+    bottom: 0;
+    right: 0;
+  }
+
+  .icon-weather {
+    display: none;
+  }
+
+  .weather-info h2::after {
+    content: "🌤️";
+  }
+}
