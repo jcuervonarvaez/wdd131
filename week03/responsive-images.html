@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image design - WDD 131</title>
+    <meta name="description"
+        content="Learn to reduce page weight through responsive image design while maintaining clarity and functionality across all screen sizes.">
+    <meta name="author" content="Julian A. Cuervo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/responsive-images.css">
+</head>
+
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 500px)" srcset="images/hero-medium.webp">
+                <img src="./images/hero-small.webp" alt="Salt Lake Temple, Utha, USA">
+            </picture>
+        </div>
+    </main>
+
+</body>
+
+</html>

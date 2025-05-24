@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chile Weather - WDD 131</title>
+    <meta name="description"
+        content="Explore the culture, history, and attractions of a fascinating destination through a beautifully designed and informative web page.">
+    <meta name="author" content="Julian A. Cuervo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/place.css">
+    <script src="./scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="./images/chile-flag-icon.svg" alt="Chile Flag icon" title="Chile Flag" width="800" height="800">
+        <h1>Chile</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="./images/chile-large.webp">
+                <source media="(min-width: 500px)" srcset="./images/chile-medium.webp">
+                <img src="./images/chile-small.webp" alt="Salt Lake Temple, Utha, USA">
+            </picture>
+        </div>
+        <section class="hero-card general-info">
+            <h2>Data</h2>
+            <ul>
+                <li><span>Area: </span> 756,626 km²</li>
+                <li><span>Population: </span> 19,849,976</li>
+                <li><span>Capital: </span> Santiago de Chile</li>
+                <li><span>Main Language</span> Spanish</li>
+                <li><span>Other Languages</span> aymara, quechua, rapa nui, kawésqar, yagán y mapuzugun.</li>
+                <li><span>Currency: </span> CLP - Chilean Peso</li>
+                <li><span>Time Zone: </span> UTC–4 </li>
+                <li><span>Calling Code: </span> +56</li>
+                <li><span>Internet TLD: </span> .cl</li>
+            </ul>
+        </section>
+        <section class="hero-card weather-info">
+            <h2>Weather</h2>
+            <div class="icon-weather">
+                <img src="./images/weather-icon.svg" alt="Weather icon" title="Weather icon" height="80" width="80">
+            </div>
+            <ul>
+                <li><span>Temperature: </span> 12</li>
+                <li><span>Conditions: </span> 12</li>
+                <li><span>Wind: </span> 123</li>
+                <li><span>Wind Chill: </span> 123</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p id="copyright"></p>
+        <p id="lastChangeFile"></p>
+    </footer>
+
+</body>
+
+</html>
