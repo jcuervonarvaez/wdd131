@@ -13,57 +13,60 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./styles/place.css">
-    <link rel="stylesheet" href="./styles/place-large.css">
-    <script src="./scripts/place.js" defer></script>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <img src="./images/chile-flag-icon.svg" alt="Chile Flag icon" title="Chile Flag" width="800" height="800">
-        <h1>Chile</h1>
-    </header>
-    <main>
-        <section class="hero">
-            <picture>
-                <source media="(min-width: 1000px)" srcset="./images/chile-large.webp">
-                <source media="(min-width: 500px)" srcset="./images/chile-medium.webp">
-                <img src="./images/chile-small.webp" alt="Salt Lake Temple, Utha, USA">
-            </picture>
-        </section>
-        <section class="cards">
-            <div class="card general-info">
-                <h2>Data</h2>
-                <ul>
-                    <li><span>Area: </span> 756,626 km²</li>
-                    <li><span>Population: </span> 19,849,976</li>
-                    <li><span>Capital: </span> Santiago de Chile</li>
-                    <li><span>Main Language</span> Spanish</li>
-                    <li><span>Currency: </span> CLP - Chilean Peso</li>
-                    <li><span>Time Zone: </span> UTC–4 </li>
-                    <li><span>Calling Code: </span> +56</li>
-                    <li><span>Internet TLD: </span> .cl</li>
-                </ul>
-            </div>
-            <div class="card weather-info">
-                <h2>Weather</h2>
-                <div class="icon-weather">
-                    <img src="./images/weather-icon.svg" alt="Weather icon" title="Weather icon" height="80" width="80">
-                </div>
-                <ul>
-                    <li><span>Temperature: </span> 12</li>
-                    <li><span>Conditions: </span> 12</li>
-                    <li><span>Wind: </span> 123</li>
-                    <li><span>Wind Chill: </span> 123</li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p id="copyright"></p>
-        <p id="lastChangeFile"></p>
-    </footer>
+    <div class="layout">
+        <header>
+            <img src="images/chile-flag-icon.svg" alt="Chile Flag icon" title="Chile Flag" width="40" height="40">
+            <h1>CHILE</h1>
 
+        </header>
+        <main>
+            <section class="hero">
+                <picture>
+                    <source media="(min-width: 1000px)" srcset="images/chile-large.webp">
+                    <source media="(min-width: 500px)" srcset="images/chile-medium.webp">
+                    <img src="images/chile-small.webp" alt="Salt Lake Temple, Utha, USA" width="500" height="1000">
+                </picture>
+            </section>
+            <section class="cards">
+                <div class="card general-info">
+                    <h2>Data</h2>
+                    <ul>
+                        <li><span>Area: </span> 756,626 km²</li>
+                        <li><span>Population: </span> 19,849,976</li>
+                        <li><span>Capital: </span> Santiago de Chile</li>
+                        <li><span>Main Language</span> Spanish</li>
+                        <li><span>Currency: </span> CLP - Chilean Peso</li>
+                        <li><span>Time Zone: </span> UTC–4 </li>
+                        <li><span>Calling Code: </span> +56</li>
+                        <li><span>Internet TLD: </span> .cl</li>
+                    </ul>
+                </div>
+                <div class="card weather-info">
+                    <h2>Weather</h2>
+                    <div class="icon-weather">
+                        <img src="images/weather-icon.svg" alt="Weather icon" title="Weather icon" height="80"
+                            width="80">
+                    </div>
+                    <ul>
+                        <li><span>Temperature: </span> 12</li>
+                        <li><span>Conditions: </span> 12</li>
+                        <li><span>Wind: </span> 123</li>
+                        <li><span>Wind Chill: </span> 123</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p id="copyright"></p>
+            <p id="lastChangeFile"></p>
+        </footer>
+    </div>
 </body>
 
 </html>
