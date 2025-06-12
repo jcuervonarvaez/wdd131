@@ -105,7 +105,7 @@ function getImageTempleCardElement(imageUrl, templeName) {
   imgElement.alt = `Image of ${templeName}`;
   imgElement.width = 400;
   imgElement.height = 250;
-  imgElement.lazyLoad = true;
+  imgElement.loading = "lazy";
   pictureElement.appendChild(imgElement);
   return pictureElement;
 }
@@ -137,18 +137,6 @@ function displayFilteredTemples(temples) {
     templeContainer.appendChild(templeCard);
   });
 }
-
-// Old – temples built before 1900
-// New – temples built after 2000
-// Large – temples larger than 90,000 square feet
-// Small – temples smaller than 10,000 square feet
-// Home – displays all the temples stored in the array.
-
-// <a href="/temples.html">Ho
-// <a href="#old">Old</a>
-// <a href="#new">New</a>
-// <a href="#large">Large</a>
-// <a href="#small">Small</a>
 
 function filterTemplesByAnchor() {
   currentAnchor = document.location.hash;
