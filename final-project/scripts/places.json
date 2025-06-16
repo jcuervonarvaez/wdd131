@@ -1,0 +1,98 @@
+[
+  {
+    "name": "La Sebastiana",
+    "address": "Ricardo De Ferrari 692, Valparaíso, Chile",
+    "cost": "General: $10,000 CLP, Students/Seniors: $4,000 CLP",
+    "description": "La Sebastiana was the home of Chilean Nobel Prize-winning poet Pablo Neruda. Today, it's a museum where visitors can explore its colorful rooms, discover eccentric artifacts, and enjoy panoramic views of the city and sea.",
+    "photo_sources": [
+      "./images/places/la_sebastiana_sm.webp",
+      "./images/places/la_sebastiana_md.webp",
+      "./images/places/la_sebastiana_lg.webp"
+    ],
+    "url": "https://fundacionneruda.org/museos-casa-museo-la-sebastiana/"
+  },
+  {
+    "name": "Open Air Museum",
+    "address": "Cerro Bellavista, Valparaíso, Chile",
+    "cost": "Free",
+    "description": "Located in Bellavista Hill, this open-air museum features a collection of murals painted by renowned Chilean artists. It offers a unique cultural walk through colorful streets filled with history and urban art.",
+    "photo_sources": [
+      "./images/places/open_air_sm.webp",
+      "./images/places/open_air_md.webp",
+      "./images/places/open_air_lg.webp"
+    ],
+    "url": "https://valparaiso.com/tourist-attraction/museo-a-cielo-abierto/"
+  },
+  {
+    "name": "Artillería Funicular",
+    "address": "Calle Artillería, Valparaíso, Chile",
+    "cost": "$100 - $300 CLP",
+    "description": "One of Valparaíso’s oldest and most iconic funiculars. It connects the lower part of the city with Artillería Hill and the 21 de Mayo Promenade, offering breathtaking views of the bay and port.",
+    "photo_sources": [
+      "./images/places/funicular_sm.webp",
+      "./images/places/funicular_md.webp",
+      "./images/places/funicular_lg.webp"
+    ],
+    "url": "https://ecomapu.com/funicular-rides-tour/"
+  },
+  {
+    "name": "Reñaca Beach",
+    "address": "Reñaca, Viña del Mar, Chile",
+    "cost": "Free",
+    "description": "Located north of Viña del Mar, Reñaca Beach is one of the most popular summer spots. It's ideal for sunbathing, surfing, and enjoying the lively beachside promenade with restaurants and bars.",
+    "photo_sources": [
+      "./images/places/renaca_sm.webp",
+      "./images/places/renaca_md.webp",
+      "./images/places/renaca_lg.webp"
+    ],
+    "url": "https://www.tripadvisor.cl/Attraction_Review-g295425-d318302-Reviews-Playa_Renaca-Vina_del_Mar_Valparaiso_Region.htmls"
+  },
+  {
+    "name": "Wulff Castle",
+    "address": "Av. Marina 37, Viña del Mar, Chile",
+    "cost": "Free",
+    "description": "This German-style castle was built in the early 20th century by businessman Gustavo Wulff. Set dramatically on the rocks by the sea, it hosts art exhibitions and provides stunning ocean views.",
+    "photo_sources": [
+      "./images/places/wulff_sm.webp",
+      "./images/places/wulff_md.webp",
+      "./images/places/wulff_lg.webp"
+    ],
+    "url": "https://www.monumentos.gob.cl/monumentos/monumentos-historicos/castillo-wulff"
+  },
+  {
+    "name": "National Botanical Garden",
+    "address": "Camino El Olivar 305, Viña del Mar, Chile",
+    "cost": "General: $2,800 CLP, Children/Seniors: $1,000 CLP",
+    "description": "Home to over 3,000 plant species, this botanical garden is a natural oasis perfect for hiking, picnicking, and learning about native and exotic flora. It also includes nurseries, ponds, and themed areas.",
+    "photo_sources": [
+      "./images/places/botanical_sm.webp",
+      "./images/places/botanical_md.webp",
+      "./images/places/botanical_lg.webp"
+    ],
+    "url": "https://gardensearch.bgci.org/garden/3826"
+  },
+  {
+    "name": "Fonck Museum",
+    "address": "4 Norte 784, Viña del Mar, Chile",
+    "cost": "General: $3,000 CLP, Students: $500 CLP",
+    "description": "An archaeological and ethnographic museum known for its impressive collection of Rapa Nui artifacts and natural history exhibits, including insects, fossils, and reptiles.",
+    "photo_sources": [
+      "./images/places/fonck_sm.webp",
+      "./images/places/fonck_md.webp",
+      "./images/places/fonck_lg.webp"
+    ],
+    "url": "http://museofonck.cl/new_site/"
+  },
+  {
+    "name": "Concepción Hill",
+    "address": "Cerro Concepción, Valparaíso, Chile",
+    "cost": "Free",
+    "description": "A historic and vibrant hill filled with colonial architecture, street art, cafés, and scenic viewpoints. It's a perfect place to explore on foot and experience the city's bohemian charm.",
+    "photo_sources": [
+      "./images/places/concepcion_sm.webp",
+      "./images/places/concepcion_md.webp",
+      "./images/places/concepcion_lg.webp"
+    ],
+    "url": "https://valparaiso.com/en/tourist-attraction/concepcion-hill/"
+  }
+]

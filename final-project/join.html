@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valpommerce | Join Us</title>
+    <!-- Metadata -->
+    <meta
+      name="description"
+      content="Join Valpommerce and help grow Valparaíso’s local economy. Connect with fellow entrepreneurs, showcase your business, and be part of a thriving community."
+  >
+    <meta name="author" content="Julian A. Cuervo">
+    <!-- OpenGraphs -->
+    <meta property="og:title" content="Valpommerce | Join Us">
+    <meta
+      property="og:description"
+      content="Join Valpommerce and help grow Valparaíso’s local economy. Connect with fellow entrepreneurs, showcase your business, and be part of a thriving community."
+  >
+    <meta
+      property="og:url"
+      content="https://jcuervonarvaez.github.io/wdd131/final-project/"
+  >
+    <meta property="og:locale" content="en_US">
+    <meta
+      property="og:image"
+      content="https://jcuervonarvaez.github.io/wdd131/final-project/images/social-media-image.jpg"
+  >
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="WDD 131 - Julian A. Cuervo">
+    <!-- Twitter X -->
+    <meta property="twitter:card" content="summary_large_image">
+    <link rel="icon" href="./favicon.ico">
+    <!-- External Sources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+  >
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <!-- Scripts -->
+    <script type="module" src="./scripts/shared.mjs"></script>
+    <script src="./scripts/join.js" defer></script>
+  </head>
+  <body>
+    <div class="layout">
+      <header class="fixed">
+        <div class="header-top">
+          <!-- Header Logo -->
+          <a href="./" class="header-branding">
+            <img
+              src="./images/logo-light.webp"
+              alt="Valpommerce Logo"
+              width="45"
+              height="45"
+          >
+            <span>Valpommerce</span>
+          </a>
+          <!-- Responsive Bottom Navigation -->
+          <button
+            id="btn-menu-mobile"
+            type="button"
+            aria-label="Open Menu"
+            aria-expanded="false"
+            aria-controls="main-menu"
+         >
+            ☰
+          </button>
+        </div>
+        <!-- Main Navigation -->
+        <nav id="main-menu" aria-hidden="true">
+          <a href="./" class="nav-link">Home</a>
+          <a href="./discover.html" class="nav-link">Discover</a>
+          <a href="./directory.html" class="nav-link">Business Directory</a>
+          <a href="./join.html" class="nav-link active" aria-current="page"
+           >Join</a
+         >
+        </nav>
+      </header>
+      <main>
+        <div class="content-directory">
+          <nav class="breadcrumb" aria-label="breadcrumb">
+            <ul>
+              <li><a href="./">Home</a></li>
+              <li class="active" aria-current="page">Join</li>
+            </ul>
+          </nav>
+          <h1>Join Us</h1>
+          <p>
+            Become part of Valpommerce and help grow Valparaíso’s local economy.
+            Connect with fellow entrepreneurs, showcase your business, and be
+            part of a thriving community.
+          </p>
+          <section class="plans">
+            <div class="membership-levels">
+              <h2>
+                Membership Levels <br>
+                <span class="subtitle"
+                 >Choose the level that best suits your business needs.</span
+               >
+              </h2>
+
+              <p>
+                We offer a range of membership levels to fit your business
+                needs, from free non-profit memberships to premium gold
+                memberships with exclusive benefits. Each level provides unique
+                opportunities for visibility, networking, and support.
+              </p>
+            </div>
+            <div class="level-card" id="non-profit-info">
+              <h3 class="level-title member">Non-Profit Membership</h3>
+              <p><strong>Cost:</strong> Free for non-profit organizations</p>
+              <p>
+                Connect with the community and promote your mission without any
+                fees.
+              </p>
+              <button
+                data-modal-id="level-basic-modal"
+                class="btn-modal"
+                type="button"
+             >
+                See More
+              </button>
+              <dialog id="level-basic-modal">
+                <h4>Non-Profit Membership Details</h4>
+                <p><strong>Cost:</strong> Free for non-profit organizations.</p>
+                <p>
+                  This membership is ideal for non-profit entities looking to
+                  engage with the community and increase awareness of their
+                  mission without any financial burden.
+                </p>
+                <ul>
+                  <li>Listing in the community directory</li>
+                  <li>Access to free promotional events</li>
+                  <li>Participation in local initiatives</li>
+                </ul>
+                <button type="button" class="close-modal">✖</button>
+              </dialog>
+            </div>
+
+            <div class="level-card" id="bronze-info">
+              <h3 class="level-title bronze">Bronze Membership</h3>
+              <p><strong>Cost:</strong> $100/year</p>
+              <p>
+                Gain access to basic member benefits and community recognition
+                at an affordable rate.
+              </p>
+              <button
+                data-modal-id="level-bronze-modal"
+                class="btn-modal"
+                type="button"
+             >
+                See More
+              </button>
+              <dialog id="level-bronze-modal">
+                <h4>Bronze Membership Details</h4>
+                <p><strong>Cost:</strong> $100/year</p>
+                <p>
+                  The Bronze plan is perfect for small businesses or individuals
+                  beginning their involvement with the community.
+                </p>
+                <ul>
+                  <li>Basic member directory listing</li>
+                  <li>Monthly newsletter inclusion</li>
+                  <li>Recognition on our website</li>
+                </ul>
+                <button type="button" class="close-modal">✖</button>
+              </dialog>
+            </div>
+
+            <div class="level-card" id="silver-info">
+              <h3 class="level-title silver">Silver Membership</h3>
+              <p><strong>Cost:</strong> $250/year</p>
+              <p>
+                Enjoy enhanced visibility, promotional opportunities, and
+                networking access.
+              </p>
+              <button
+                data-modal-id="level-silver-modal"
+                class="btn-modal"
+                type="button"
+             >
+                See More
+              </button>
+              <dialog id="level-silver-modal">
+                <h4>Silver Membership Details</h4>
+                <p><strong>Cost:</strong> $250/year</p>
+                <p>
+                  Silver members enjoy greater visibility and more opportunities
+                  to connect and promote their business or organization.
+                </p>
+                <ul>
+                  <li>Enhanced directory placement</li>
+                  <li>Social media shoutouts</li>
+                  <li>Priority access to networking events</li>
+                </ul>
+                <button type="button" class="close-modal">✖</button>
+              </dialog>
+            </div>
+
+            <div class="level-card" id="gold-info">
+              <h3 class="level-title gold">Gold Membership</h3>
+              <p><strong>Cost:</strong> $500/year</p>
+              <p>
+                Maximize your impact with premium exposure, exclusive events,
+                and top-tier support.
+              </p>
+              <button
+                data-modal-id="level-gold-modal"
+                class="btn-modal"
+                type="button"
+             >
+                See More
+              </button>
+              <dialog id="level-gold-modal">
+                <h4>Gold Membership Details</h4>
+                <p><strong>Cost:</strong> $500/year</p>
+                <p>
+                  The Gold plan offers top-tier benefits, visibility, and
+                  support, tailored for those seeking maximum impact and
+                  exposure.
+                </p>
+                <ul>
+                  <li>Premium directory placement</li>
+                  <li>Sponsorship opportunities</li>
+                  <li>Exclusive event invitations</li>
+                  <li>Featured member spotlight</li>
+                </ul>
+                <button type="button" class="close-modal">✖</button>
+              </dialog>
+            </div>
+          </section>
+          <section class="join-form-section">
+            <picture>
+              <source
+                srcset="./images/business-owners-lg.webp"
+                media="(min-width: 1024px)"
+            >
+              <source
+                srcset="./images/business-owners-md.webp"
+                media="(min-width: 600px)"
+            >
+              <img
+                src="./images/business-owners-sm.webp"
+                alt="Four local Chilean entrepreneurs from Valparaíso"
+                title="Four local Chilean entrepreneurs from Valparaíso"
+                loading="lazy"
+            >
+            </picture>
+            <form
+              action="./thankyou.html"
+              method="get"
+              class="join-form"
+              id="join-form"
+           >
+              <h2>
+                Join Valpommerce Today!
+                <span class="form-subtitle"
+                 >Complete the form below to become a member.</span
+               >
+              </h2>
+              <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                  <label for="firstNameField">First Name</label>
+                  <input
+                    id="firstNameField"
+                    name="firstname"
+                    title="First name is required."
+                    autocomplete="given-name"
+                    type="text"
+                    required
+                >
+                </div>
+                <div class="form-group">
+                  <label for="lastNameField">Last Name</label>
+                  <input
+                    id="lastNameField"
+                    name="lastname"
+                    title="Last name is required."
+                    autocomplete="family-name"
+                    type="text"
+                    required
+                >
+                </div>
+                <div class="form-group">
+                  <label for="emailField">Email</label>
+                  <input
+                    id="emailField"
+                    name="email"
+                    title="Email is required and must be a valid format."
+                    autocomplete="email"
+                    placeholder="example@mail.com"
+                    type="email"
+                    required
+                >
+                </div>
+                <div class="form-group">
+                  <label for="mobileField">Cell Phone</label>
+                  <input
+                    id="mobileField"
+                    name="mobile-phone-number"
+                    title="Phone number is required and must be a valid format."
+                    autocomplete="tel"
+                    type="tel"
+                    required
+                >
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Organization Information</legend>
+                <div class="form-group">
+                  <label for="organizationNameField">Organization Name</label>
+                  <input
+                    id="organizationNameField"
+                    name="organization-name"
+                    title="Organization name is required."
+                    autocomplete="organization"
+                    type="text"
+                    required
+                >
+                </div>
+                <div class="form-group">
+                  <label for="organizationTitleField">
+                    Organizational Title
+                  </label>
+                  <input
+                    id="organizationTitleField"
+                    name="organization-title"
+                    title="Only letters, spaces, and hyphens are allowed. Minimum 7 characters."
+                    autocomplete="organization-title"
+                    pattern="^[A-Za-z\- ]{7,}$"
+                    type="text"
+                    required
+                >
+                </div>
+                <div class="form-group">
+                  <label for="membership-level">Membership Level</label>
+                  <select
+                    id="membership-level"
+                    name="membership_level"
+                    required
+                 >
+                    <option value="" disabled selected>
+                      Select your membership level
+                    </option>
+                    <option value="np">
+                      NP Membership (Non-profit, no fee)
+                    </option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="descriptionField">Business Description</label>
+                  <textarea
+                    id="descriptionField"
+                    name="description"
+                    title="Business description is required."
+                    placeholder="Describe your business."
+                    rows="5"
+                    required
+                 ></textarea>
+                </div>
+              </fieldset>
+              <div class="form-group">
+                <input type="hidden" name="timestamp" id="timestamp-input">
+                <button type="submit" id="sendFormJoin">Join Now</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-top">
+          <div class="footer-branding">
+            <a href="./" class="logo-footer">
+              <img
+                src="./images/logo-dark.webp"
+                alt="logo of Valpommerce"
+                title="logo of Valpommerce"
+                width="45"
+                height="45"
+                loading="lazy"
+            >
+              <span>VALPOMMERCE</span>
+            </a>
+            <p class="footer-description">
+              Valpommerce connects local businesses in the Valparaíso Region,
+              helping them grow through community, collaboration, and a strong
+              digital presence.
+            </p>
+          </div>
+
+          <ul>
+            <li>Calle Ficticia 123, Valpara&iacute;so, Chile</li>
+            <li>
+              <a href="mailto:info@example.cl"
+               ><b>Email: </b>info@valpommerce.org</a
+             >
+            </li>
+            <li>
+              <a href="tel:+56942135555"><b>Phone: </b>(+56) 9 4213-5555</a>
+            </li>
+          </ul>
+          <div class="social-networks">
+            <a href="https://facebook.com" rel="noopener" target="_blank">
+              <img
+                src="./images/facebook-brands.svg"
+                alt="Facebook"
+                width="24"
+                height="24"
+            >
+            </a>
+
+            <a href="https://instagram.com" rel="noopener" target="_blank">
+              <img
+                src="./images/instagram-brands.svg"
+                alt="Instagram"
+                width="24"
+                height="24"
+            >
+            </a>
+
+            <a href="https://twitter.com" rel="noopener" target="_blank">
+              <img
+                src="./images/twitter-brands.svg"
+                alt="X"
+                width="24"
+                height="24"
+            >
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy;
+            <span id="currentYear"></span> Valpommerce. WDD131 Class Project -
+            Julian A. Cuervo 🚀
+          </p>
+          <p id="lastModified"></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
